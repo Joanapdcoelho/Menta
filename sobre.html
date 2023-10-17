@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Joana Coelho" />
+    <title>Menta & Linhas | Sobre</title>
+
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
+    <style>
+        /* importar o tipo de letra dancing script do google fonts */
+        @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+    </style>
+
+    <!-- Link para bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Link para bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Link para fontawesome -->
+    <script src="https://kit.fontawesome.com/0ee195f9f4.js" crossorigin="anonymous"></script>
+
+    <!-- ====link para css============ -->
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 fixed-top">
+        <div class="container">
+            <a href="index.html" target="_self"><img src="img/Logo/Logo_cores.svg" width="80px" alt="Logo" /></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto" style="text-transform: uppercase;">
+                    <li class="nav-item">
+                        <a href="index.html" target="_self" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="sobre.html" target="_self" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reservas.html" target="_self" class="nav-link">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactos.html" target="_self" class="nav-link">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIM navbar -->
+
+
+
+    <!-- imagem -->
+    <!-- <picture>
+        <source media="(max-width:350 )" srcset="img/amigas_300.jpg" type="image/jpg">
+        <source media="(max-width:550 )" srcset="img/amigas_500.jpg" type="image/jpg">
+        <source media="(max-width:750px)" srcset="img/amigas_700.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="img/amigas_1280.jpg" type="image/jpg">
+        <img src="img/amigas_1280.jpg" alt="amigas a beber chá">
+    </picture> -->
+
+    <!-- Imagem responsiva -->
+
+    <img src="img/amigas_1280.jpg" class="img-fluid" alt="Amigos à conversa e a beber chá fresco">
+    <br><br>
+
+    <div class="sobre bg-white text-gray col-md-12">
+<div class="container-sobre">
+        <h1>Sobre nós</h1> 
+        <p>Somos uma casa de chá com uma área dedicada à costura onde pode
+            fazer pequenos projetos enquanto aprecia o seu chá ou se inscreve
+            num dos nossos workshops.</p> <br>
+
+        <p>Dispomos de um belíssimo espaço, situado num palacete em pleno coração da cidade de Lisboa, no bairro de
+            Benfica, justamente no Palácio Baldaya.oferece um conceito inovador aos seus clientes não só em termos
+            arquitectónicos, mas principalmente nos produtos que tem à disposição. </p> <br>
+
+        <p>Todos os nossos produtos são de excelente qualidade e, seguindo as têndências, dispomos de produtos vegan,
+            vegetarianos e sem açúcar adicionado.</p> <br>
+    </div>
+
+    </div>
+
+    <!-- Imagens com texto no fundo -->
+    <h1 class="bg-white text-gray col-md-12">Os nossos produtos</h1> <br>
+    <div class="row row-cols-1 row-cols-md-4">
+
+        <div class="col">
+            <div class="card">
+                <img src="img/brunch_1280.jpg" class="card-img-top" alt="mesa com brunch e chá">
+                <div class="card-body" class="col-2">
+
+                    <button class="btn btn-success w-100 py-2" type="submit">Brunch</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/relaxing_1280.jpg" class="card-img-top" alt="...">
+                <div class="card-body" class="col-2">
+                    <button class="btn btn-success w-100 py-2" type="submit">Relaxing</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/energetic1_1263.jpg" class="card-img-top" alt="...">
+                <div class="card-body" class="col-2">
+                    <button class="btn btn-success w-100 py-2" type="submit">Energetic</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/chá frio_1280.jpg" class="card-img-top" alt="...">
+                <div class="card-body" class="col-2">
+                    <button class="btn btn-success w-100 py-2" type="submit">Frescos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Newsletter -->
+    <section class="bg-light text-gray p-5 col-md-12">
+        <div class="container">
+            <div class="bg-light text-gray p-2">
+                <h1>Receba as nossas dicas</h1> <br>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Email" />
+                    <button class="btn btn-success btn-lg" type="button">Subscrever</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-white text-dark text-center position-relative">
+        <div class="container">
+            <p class="lead">Menta & Linhas&copy; - Casa de Chá | Direitos Reservados 2022</p>
+        </div>
+    </footer>
+
+    <!-- ====Scripts JS e bootstrap js===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

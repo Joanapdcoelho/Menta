@@ -1,0 +1,41 @@
+/* ============Guia da marca============
+=======CORES=====
+Cor verde-escuro: #144733
+Cor verde claro: #4bbb87 
+vermelho: #a30000
+Cor de fundo claro: #f8f1ff
+Cor de fundo escuro: #5d4e60
+======FONTS=========
+cor: preto
+dancing script
+futura std
+verdana
+ */
+
+ @charset "UTF-8";
+
+ /* body{
+     background-color: #fff;
+     font: normal 1em 'futura std','verdana';
+ } */
+
+body{
+  padding:2%;
+  font: light 2em 'futura std','verdana','sans-serif';
+}
+
+h1{
+  font-family: 'Dancing Script';
+  text-align: center;
+}
+.navbar .nav-item.active {
+    border-left: #48bb88 3px solid;
+  }
+
+.container-sobre{
+  font: lighter 1.5em 'futura std','verdana','sans-serif';
+} 
+
+
+
+
